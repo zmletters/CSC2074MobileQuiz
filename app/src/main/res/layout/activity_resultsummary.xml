@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resultsummary"
+    android:background="@drawable/android_background_1" >
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+            android:text="Result Summary"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:layout_weight="1.0"
+                android:text="Username" />
+            <TextView
+                android:id="@+id/summary_username"
+                android:layout_weight="1.0"
+                android:text=""/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:layout_weight="1.0"
+                android:text="Total Question Answered" />
+            <TextView
+                android:id="@+id/summary_question_answered"
+                android:layout_weight="1.0"
+                android:text="0"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:layout_weight="1.0"
+                android:text="Total Score" />
+            <TextView
+                android:id="@+id/summary_total_score"
+                android:layout_weight="1.0"
+                android:text="0"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:layout_weight="1.0"
+                android:text="Total Cheat Attempts" />
+            <TextView
+                android:id="@+id/summary_total_cheat_attempts"
+                android:layout_weight="1.0"
+                android:text="0"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/summary_back_to_main_page"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Back to Main Page" />
+
+
+</LinearLayout>

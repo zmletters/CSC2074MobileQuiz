@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="Main_Title">Geo Quiz!</string>
+
+    <!-- Questions -->
+    <string name="question_1">Which country\'s flag is this?</string>
+    <string name="q1_australia">Is Sydney the capital of Australia?</string>
+    <string name="q2_china">Does Bhutan borders China?</string>
+    <string name="q3_belgium">Luxembourg is Belgium\'s neighbour.</string>
+    <string name="q4_san_marino">San Marino is in Italy.</string>
+
+    <!-- Toast Message-->
+    <string name="toast_result">Hello</string>
+
+</resources>
